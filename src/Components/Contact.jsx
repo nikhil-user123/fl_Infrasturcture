@@ -74,7 +74,7 @@ const Contact = () => {
                     />
                   </svg>
                 </span>
-                reach@everystage.com 
+                reach@everystage.com
               </p>
               <p>
                 <span>
@@ -102,7 +102,92 @@ const Contact = () => {
 
       {/** Location Div */}
 
-      <div className=" h-[60vh] w-[87%] bg-red-100 m-auto rounded-md mb-[15vh]"></div>
+      <div className=" flex flex-wrap gap-2  h-[60vh] w-[87%] bg-red-100 m-auto rounded-md mb-[15vh]">
+
+        <div className="flex flex-col gap-4 m-10 justify-center px-8 py-11 h-[200px] w-[380px] rounded-xl bg-slate-800 max-md:px-5">
+          <div className="flex flex-col">
+            <div className="flex gap-2 text-2xl text-white font-medium whitespace-nowrap">
+              <img
+                loading="lazy"
+                src="uae.png"
+                className="shrink-0 self-start aspect-square w-[30px]"
+              />
+              <div>UAE</div>
+            </div>
+            <div className="mt-3 text-white">
+              Sharjah innovation &Technology park, Block B. B-08 42
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-4 m-10 justify-center px-8 py-11 h-[200px] w-[380px] rounded-xl bg-slate-800 max-md:px-5">
+          <div className="flex flex-col">
+            <div className="flex gap-2 text-2xl text-white font-medium whitespace-nowrap">
+              <img
+                loading="lazy"
+                src="usa.png"
+                className="shrink-0 self-start aspect-square w-[30px]"
+              />
+              <div>USA</div>
+            </div>
+            <div className="mt-3 text-white">
+              24, Beacon way, Jersey City, 07304 New Jersey, USA
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-4 m-10 justify-center px-8 py-11 h-[200px] w-[380px] rounded-xl bg-slate-800 max-md:px-5">
+          <div className="flex flex-col">
+            <div className="flex gap-2 text-2xl text-white font-medium whitespace-nowrap">
+              <img
+                loading="lazy"
+                src="india.png"
+                className="shrink-0 self-start aspect-square w-[30px]"
+              />
+              <div>INDIA</div>
+            </div>
+            <div className="mt-3 text-white">
+              501, West One, Hinijewadi, Pune, Maharashtra - 411057
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-4 m-10 justify-center px-8 py-11 h-[200px] w-[380px] rounded-xl bg-slate-800 max-md:px-5">
+          <div className="flex flex-col">
+            <div className="flex gap-2 text-2xl text-white font-medium whitespace-nowrap">
+              <img
+                loading="lazy"
+                src="saudi.png"
+                className="shrink-0 self-start aspect-square w-[30px]"
+              />
+              <div>SAUDI ARABIA</div>
+            </div>
+            <div className="mt-3 text-white">
+              Khobar 19 Street. Al. Khobaar, Shamaliya, P.O Box
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-col gap-4 m-10 justify-center px-8 py-11 h-[200px] w-[380px] rounded-xl bg-slate-800 max-md:px-5">
+          <div className="flex flex-col">
+            <div className="flex gap-2 text-2xl text-white font-medium whitespace-nowrap">
+              <img
+                loading="lazy"
+                src="india.png"
+                className="shrink-0 self-start aspect-square w-[30px]"
+              />
+              <div>INDIA</div>
+            </div>
+            <div className="mt-3 text-white">
+              Co karma, plot no.4 Durgam Cheruvu, Behind inorbit mall, Hitech city, 500081 Hyderabad Telangana
+            </div>
+          </div>
+        </div>
+
+
+
+
+      </div>
 
       {/** Footer Section */}
 

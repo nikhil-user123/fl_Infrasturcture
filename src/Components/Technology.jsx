@@ -1,8 +1,10 @@
 import React from "react";
+import TechHome from "./tech/TechHomeComponent";
+
 
 const Technology = () => {
   document.title = "Technology";
-  return <div>Technology</div>;
+  return  <TechHome/>;
 };
 
 export default Technology;
